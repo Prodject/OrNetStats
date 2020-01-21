@@ -7,7 +7,7 @@ layout: default
 
 OrNetStats shows you statistics about the Tor network.
 
-Tor network data as of: **2019-04-20 07:00 UTC**
+Tor network data as of: **2020-01-20 16:00 UTC**
 
 ## Tor Relay Operators in End-to-End Correlation Position
 
@@ -25,12 +25,10 @@ The ContactInfo is truncated. Middle-only relays are not included in per-group r
 
 The table is sorted by guard probability.
 
-| Contact                                                                                                   | Guard (%)   | Exit (%)   | #Relays   | /16 Netblocks   | Newest Relay   | Eff. Family Members (min)   |
-|:----------------------------------------------------------------------------------------------------------|:------------|:-----------|:----------|:----------------|:---------------|:----------------------------|
-| [tor-operator@your-emailaddress-domain](endtoend-correlation-groups#tor-operatoryour-emailaddress-domain) | 0.1         | 0.14       | 6         | 6               | 2018-12-23     | 1                           |
-| [&lt;hostmaster at denetron dot com&gt;](endtoend-correlation-groups#hostmaster-at-denetron-dot-com)      | 0.03        | 0.07       | 3         | 2               | 2016-08-28     | 1                           |
-| [tomas.vanagas@knf.vu.lt tor-relay.co](endtoend-correlation-groups#tomasvanagasknfvult-tor-relayco)       | 0.02        | 0.24       | 3         | 3               | 2019-04-09     | 1                           |
-| **Total**                                                                                                 | **0.15**    | **0.45**   | **12**    |                 |                |                             |
+| Contact                                                                                                                                  | Guard (%)   | Exit (%)   | #Relays   | /16 Netblocks   | Newest Relay   | Eff. Family Members (min)   |
+|:-----------------------------------------------------------------------------------------------------------------------------------------|:------------|:-----------|:----------|:----------------|:---------------|:----------------------------|
+| [&lt;zwiebeln at online de&gt; please donate BTC 1K38x9xq](endtoend-correlation-groups#zwiebeln-at-online-de-please-donate-btc-1k38x9xq) | 0.04        | 1.58       | 23        | 11              | 2020-01-10     | 1                           |
+| **Total**                                                                                                                                | **0.04**    | **1.58**   | **23**    |                 |                |                             |
 
 For a detailed list of (known) relays in end-to-end correlation position see **[this page](endtoend-correlation-groups)**.
 
@@ -46,69 +44,69 @@ Relays are aggregated based on effective families. Effective families are relays
 
 ### Top 10 Exit Families
 
-| Contact or Fingerprint (truncated)                                                                                                                     |   Exit(%) |   #Relays | First Seen   |
-|:-------------------------------------------------------------------------------------------------------------------------------------------------------|----------:|----------:|:-------------|
-| [abuse@to-surf-and-protect.net](https://metrics.torproject.org/rs.html#search/family:0B3C8C2B2B1A1CA4429B9649F533BEB4D7470AEA)                         |     12.04 |        44 | 2016-01-25   |
-| [John L. Ricketts, PhD &lt;john AT quintex dot com&gt;](https://metrics.torproject.org/rs.html#search/family:0077BCBA7244DB3E6A5ED2746E86170066684887) |      7.11 |        48 | 2016-08-22   |
-| [https://www.torservers.net/donate.html &lt;support .A](https://metrics.torproject.org/rs.html#search/family:0E5522CB4F79E36C0BB263BABC861CFC686929AE) |      6.36 |        17 | 2016-12-23   |
-| [Foundation for Applied Privacy email:tor appliedp](https://metrics.torproject.org/rs.html#search/family:06804E6383EE94E83C9453F39B1E524C272D6D84)     |      5.63 |         9 | 2018-04-05   |
-| [https://www.digitale-gesellschaft.ch/abuse/](https://metrics.torproject.org/rs.html#search/family:0111BA9B604669E636FFD5B503F382A4B7AD6E80)           |      2.65 |        13 | 2015-05-22   |
-| [tech@emeraldonion.org](https://metrics.torproject.org/rs.html#search/family:09DCA3360179C6C8A5A20DDDE1C54662965EF1BA)                                 |      2.53 |        25 | 2019-04-05   |
-| [Accessnow.org &lt;abuse .AT. accessnow .DOT. org&gt;](https://metrics.torproject.org/rs.html#search/family:0516085D6CAC40ED4CDCEFDFC5CCF6B00DE61DED)  |      2.02 |        12 | 2017-12-05   |
-| [18CFB7BA](https://metrics.torproject.org/rs.html#search/family:18CFB7BA07F13AEABF50A7148786DA68773B2498)                                              |      1.83 |         2 | 2018-12-15   |
-| [Privacy Republic &lt;abuse-team at PrivacyRepublic](https://metrics.torproject.org/rs.html#search/family:5CECC5C30ACC4B3DE462792323967087CC53D947)    |      1.83 |         4 | 2014-11-21   |
-| [tor@ipredator.se - 1Q3mjKbZwZFEigC8edUZ8ywX4QD7kxF](https://metrics.torproject.org/rs.html#details/BC630CBBB518BE7E9F4E09712AB0269E9DC7D626)          |      1.78 |         1 | 2014-04-19   |
+| Contact or Fingerprint (truncated)                                                                                                                        |   Exit(%) |   #Relays | First Seen   |
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------|----------:|----------:|:-------------|
+| [abuse@to-surf-and-protect.net](https://metrics.torproject.org/rs.html#search/family:0B3C8C2B2B1A1CA4429B9649F533BEB4D7470AEA)                            |     16.68 |        50 | 2016-01-25   |
+| [Foundation for Applied Privacy email:tor appliedp](https://metrics.torproject.org/rs.html#search/family:06804E6383EE94E83C9453F39B1E524C272D6D84)        |      8.81 |        15 | 2018-03-23   |
+| [https://www.torservers.net/donate.html &lt;support .A](https://metrics.torproject.org/rs.html#search/family:0E5522CB4F79E36C0BB263BABC861CFC686929AE)    |      5.6  |        17 | 2016-12-23   |
+| [John L. Ricketts, PhD &lt;john AT quintex dot com&gt;](https://metrics.torproject.org/rs.html#search/family:0077BCBA7244DB3E6A5ED2746E86170066684887)    |      4.99 |        50 | 2016-08-22   |
+| [F3 Netze &lt;abuse@f3netze.de&gt;](https://metrics.torproject.org/rs.html#search/family:6BCB964AB74E23F8986BDA905697D3A6BE08AF28)                        |      3.64 |         8 | 2018-03-21   |
+| [Nicholas Merrill &lt;nick AT calyx dot com&gt; BTC - 14w](https://metrics.torproject.org/rs.html#search/family:0011BD2485AD45D984EC4159C88FC066E5E3300E) |      3.01 |        12 | 2013-06-11   |
+| [tech@emeraldonion.org](https://metrics.torproject.org/rs.html#search/family:05EAA0696DCB694D6811042348DACD5059FE64AD)                                    |      2.74 |        54 | 2019-04-05   |
+| [https://www.digitale-gesellschaft.ch/abuse/](https://metrics.torproject.org/rs.html#search/family:0111BA9B604669E636FFD5B503F382A4B7AD6E80)              |      2.5  |        13 | 2015-05-22   |
+| [Hart voor Internetvrijheid &lt;abuse AT hartvoorinter](https://metrics.torproject.org/rs.html#search/family:0485027A0A349D454D978F6C1CECDD29EA17769A)    |      2.32 |        15 | 2014-04-09   |
+| [Accessnow.org &lt;abuse .AT. accessnow .DOT. org&gt;](https://metrics.torproject.org/rs.html#search/family:0516085D6CAC40ED4CDCEFDFC5CCF6B00DE61DED)     |      1.66 |        12 | 2017-12-05   |
 
 **[Show more](allexitfamilies)**
 
 ### Top 10 Guard Families
 
-| Contact or Fingerprint (truncated)                                                                                                                     |   Guard(%) |   #Relays | First Seen   |
-|:-------------------------------------------------------------------------------------------------------------------------------------------------------|-----------:|----------:|:-------------|
-| [abuse@to-surf-and-protect.net](https://metrics.torproject.org/rs.html#search/family:0677DF0B05ECDA2EF45F26C3332731043BB89AB8)                         |       1.38 |        17 | 2019-01-05   |
-| [email:tor appliedprivacy.net twitter:applied priv](https://metrics.torproject.org/rs.html#search/family:113143469021882C3A4B82F084F8125B08EE471E)     |       0.96 |        10 | 2017-06-13   |
-| [24F97F98](https://metrics.torproject.org/rs.html#search/family:24F97F98C45E4754655BE66799049763DAEE99CE)                                              |       0.87 |         4 | 2018-08-17   |
-| [Kevin Hicks &lt;admin@fissionrelays.net&gt;](https://metrics.torproject.org/rs.html#search/family:3B4C5729F829CA2E895B81AF834A63DB336D0FFE)           |       0.77 |        13 | 2018-01-07   |
-| [0ED0EA32](https://metrics.torproject.org/rs.html#search/family:0ED0EA324C931CF41CB5272BFB1D015B3D5772A9)                                              |       0.71 |         5 | 2017-10-24   |
-| [abuse AT torworld.org - BTC 34yFiqwbcUA5MYSvUcpj](https://metrics.torproject.org/rs.html#search/family:157106182B9F33663CAEDCD883D302316331DE5E)      |       0.65 |        15 | 2016-12-11   |
-| [Gijs Rijnders tor AT ip-eend DOT nl](https://metrics.torproject.org/rs.html#search/family:6DFEB41C04CCE846871338E85DD5ACF5CFB6C1DD)                   |       0.61 |         3 | 2015-04-22   |
-| [Peter Pan &lt;peterpan@fscore.de&gt;](https://metrics.torproject.org/rs.html#search/family:36B08222339CE4EA4989ECB37CF6D060BDECB486)                  |       0.6  |         3 | 2018-04-22   |
-| [Thomas Steen Rasmussen / Tykling &lt;thomas@gibfest.d](https://metrics.torproject.org/rs.html#search/family:38CC95A8CE92A591D4A5779359BEFFBA13FA1B88) |       0.58 |         8 | 2016-01-03   |
-| [torrpi1405@gmail.com](https://metrics.torproject.org/rs.html#search/family:39F91959416763AFD34DBEEC05474411B964B2DC)                                  |       0.56 |        18 | 2018-08-28   |
+| Contact or Fingerprint (truncated)                                                                                                                        |   Guard(%) |   #Relays | First Seen   |
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------|-----------:|----------:|:-------------|
+| [&lt;tor AT afo MINUS tm DOT org&gt;](https://metrics.torproject.org/rs.html#search/family:0512FE6BE9CCA0ED133152E64010B2FBA141EB10)                      |       1.63 |        14 | 2018-10-05   |
+| [abuse@to-surf-and-protect.net](https://metrics.torproject.org/rs.html#search/family:0677DF0B05ECDA2EF45F26C3332731043BB89AB8)                            |       1.43 |        18 | 2019-01-05   |
+| [Thomas Steen Rasmussen / Tykling &lt;thomas@gibfest.d](https://metrics.torproject.org/rs.html#search/family:38CC95A8CE92A591D4A5779359BEFFBA13FA1B88)    |       1.08 |         8 | 2016-01-03   |
+| [abuse@for-privacy.net](https://metrics.torproject.org/rs.html#search/family:18671DE5092C67883BFB2450C3267B92618BEC66)                                    |       0.93 |        10 | 2019-03-16   |
+| [Bauruine &lt;torcontact aatt tuxli.ch&gt; - 1CVkdZfRGWXE](https://metrics.torproject.org/rs.html#search/family:021047C51A57254D263DDB8B9277CA1C286D600E) |       0.8  |        10 | 2014-04-09   |
+| [24F97F98](https://metrics.torproject.org/rs.html#search/family:24F97F98C45E4754655BE66799049763DAEE99CE)                                                 |       0.78 |         5 | 2016-09-06   |
+| [torrpi1405@gmail.com](https://metrics.torproject.org/rs.html#search/family:1A7A2516A961F2838F7F94786A8811BE82F9CFFE)                                     |       0.74 |        22 | 2018-08-28   |
+| [0ED0EA32](https://metrics.torproject.org/rs.html#search/family:0ED0EA324C931CF41CB5272BFB1D015B3D5772A9)                                                 |       0.69 |         5 | 2017-10-24   |
+| [retik.eu &lt;retik@systemli.org&gt;](https://metrics.torproject.org/rs.html#search/family:113184F9855AECB1D9BF3230A07408EC2767A62B)                      |       0.63 |         6 | 2018-09-25   |
+| [Kevin Hicks &lt;admin@fissionrelays.net&gt;](https://metrics.torproject.org/rs.html#search/family:0B841CB70F9ED1FD0322C2BA2EB0D80420D87CFA)              |       0.6  |        14 | 2018-01-07   |
 
 **[Show more](allguardfamilies)**
 
 ### Top 10 Relay Families by Consensus Weight
 
-| Contact or Fingerprint (truncated)                                                                                                                     |   CW Fraction(%) |   Exit(%) |   Guard(%) |   #Relays | First Seen   |
-|:-------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------:|----------:|-----------:|----------:|:-------------|
-| [abuse@to-surf-and-protect.net](https://metrics.torproject.org/rs.html#search/family:0677DF0B05ECDA2EF45F26C3332731043BB89AB8)                         |            3.895 |     12.04 |       1.38 |        61 | 2016-01-25   |
-| [Foundation for Applied Privacy email:tor appliedp](https://metrics.torproject.org/rs.html#search/family:06804E6383EE94E83C9453F39B1E524C272D6D84)     |            2.022 |      5.63 |       0.96 |        19 | 2017-06-13   |
-| [John L. Ricketts, PhD &lt;john AT quintex dot com&gt;](https://metrics.torproject.org/rs.html#search/family:0077BCBA7244DB3E6A5ED2746E86170066684887) |            1.783 |      7.11 |       0    |        48 | 2016-08-22   |
-| [https://www.torservers.net/donate.html &lt;support .A](https://metrics.torproject.org/rs.html#search/family:0E5522CB4F79E36C0BB263BABC861CFC686929AE) |            1.593 |      6.36 |       0    |        17 | 2016-12-23   |
-| [abuse AT torworld.org - BTC 34yFiqwbcUA5MYSvUcpj](https://metrics.torproject.org/rs.html#search/family:13E8EB1D9FD7470AA87A47DC93538E88340A0903)      |            0.719 |      0.97 |       0.65 |        20 | 2016-10-28   |
-| [https://www.digitale-gesellschaft.ch/abuse/](https://metrics.torproject.org/rs.html#search/family:0111BA9B604669E636FFD5B503F382A4B7AD6E80)           |            0.666 |      2.65 |       0    |        13 | 2015-05-22   |
-| [tech@emeraldonion.org](https://metrics.torproject.org/rs.html#search/family:09DCA3360179C6C8A5A20DDDE1C54662965EF1BA)                                 |            0.656 |      2.53 |       0.01 |        27 | 2019-04-05   |
-| [24F97F98](https://metrics.torproject.org/rs.html#search/family:24F97F98C45E4754655BE66799049763DAEE99CE)                                              |            0.605 |      0    |       0.87 |         5 | 2016-09-06   |
-| [Accessnow.org &lt;abuse .AT. accessnow .DOT. org&gt;](https://metrics.torproject.org/rs.html#search/family:0516085D6CAC40ED4CDCEFDFC5CCF6B00DE61DED)  |            0.506 |      2.02 |       0    |        12 | 2017-12-05   |
-| [Kevin Hicks &lt;admin@fissionrelays.net&gt;](https://metrics.torproject.org/rs.html#search/family:3B4C5729F829CA2E895B81AF834A63DB336D0FFE)           |            0.488 |      0    |       0.77 |        13 | 2018-01-07   |
+| Contact or Fingerprint (truncated)                                                                                                                        |   CW Fraction(%) |   Exit(%) |   Guard(%) |   #Relays | First Seen   |
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------:|----------:|-----------:|----------:|:-------------|
+| [abuse@to-surf-and-protect.net](https://metrics.torproject.org/rs.html#search/family:0677DF0B05ECDA2EF45F26C3332731043BB89AB8)                            |            5.126 |     16.68 |       1.43 |        68 | 2016-01-25   |
+| [Foundation for Applied Privacy email:tor appliedp](https://metrics.torproject.org/rs.html#search/family:06804E6383EE94E83C9453F39B1E524C272D6D84)        |            2.478 |      8.81 |       0.4  |        21 | 2017-06-13   |
+| [https://www.torservers.net/donate.html &lt;support .A](https://metrics.torproject.org/rs.html#search/family:0E5522CB4F79E36C0BB263BABC861CFC686929AE)    |            1.409 |      5.6  |       0    |        17 | 2016-12-23   |
+| [John L. Ricketts, PhD &lt;john AT quintex dot com&gt;](https://metrics.torproject.org/rs.html#search/family:0077BCBA7244DB3E6A5ED2746E86170066684887)    |            1.256 |      4.99 |       0    |        50 | 2016-08-22   |
+| [&lt;tor AT afo MINUS tm DOT org&gt;](https://metrics.torproject.org/rs.html#search/family:0512FE6BE9CCA0ED133152E64010B2FBA141EB10)                      |            1.06  |      0    |       1.63 |        14 | 2018-10-05   |
+| [F3 Netze &lt;abuse@f3netze.de&gt;](https://metrics.torproject.org/rs.html#search/family:6BCB964AB74E23F8986BDA905697D3A6BE08AF28)                        |            0.915 |      3.64 |       0    |         8 | 2018-03-21   |
+| [Nicholas Merrill &lt;nick AT calyx dot com&gt; BTC - 14w](https://metrics.torproject.org/rs.html#search/family:0011BD2485AD45D984EC4159C88FC066E5E3300E) |            0.781 |      3.01 |       0.03 |        13 | 2013-06-11   |
+| [tech@emeraldonion.org](https://metrics.torproject.org/rs.html#search/family:05EAA0696DCB694D6811042348DACD5059FE64AD)                                    |            0.703 |      2.74 |       0.02 |        55 | 2019-04-05   |
+| [Thomas Steen Rasmussen / Tykling &lt;thomas@gibfest.d](https://metrics.torproject.org/rs.html#search/family:38CC95A8CE92A591D4A5779359BEFFBA13FA1B88)    |            0.701 |      0    |       1.08 |         8 | 2016-01-03   |
+| [https://www.digitale-gesellschaft.ch/abuse/](https://metrics.torproject.org/rs.html#search/family:0111BA9B604669E636FFD5B503F382A4B7AD6E80)              |            0.628 |      2.5  |       0    |        13 | 2015-05-22   |
 
 **[Show more](maincwfamilies)**
 
 ## Top 10 Autonomous System Names by CW Fraction
 
-| AS Name                                                          |   CW Fraction(%) |   Guard(%) |   Exit(%) |   #Relays |
-|:-----------------------------------------------------------------|-----------------:|-----------:|----------:|----------:|
-| OVH SAS                                                          |            14.46 |      17.97 |     10.2  |       595 |
-| Hetzner Online GmbH                                              |            13.49 |      17.25 |      0.11 |       415 |
-| Online S.a.s.                                                    |            10.64 |      12.89 |      5.29 |       316 |
-| Joshua Peter McQuistan                                           |             3.08 |       0.1  |     12.04 |        46 |
-| netcup GmbH                                                      |             2.59 |       3.09 |      0.38 |        85 |
-| iomart Cloud Services Limited.                                   |             2.21 |       3.48 |      0    |        19 |
-| Next Layer Telekommunikationsdienstleistungs- und Beratungs GmbH |             1.93 |       0.82 |      5.63 |        17 |
-| Quintex Alliance Consulting                                      |             1.78 |       0    |      7.11 |        48 |
-| DigitalOcean, LLC                                                |             1.72 |       1.62 |      0.61 |       258 |
-| NForce Entertainment B.V.                                        |             1.7  |       1.16 |      3.6  |        32 |
+| AS Name                        |   CW Fraction(%) |   Guard(%) |   Exit(%) |   #Relays |
+|:-------------------------------|-----------------:|-----------:|----------:|----------:|
+| Hetzner Online GmbH            |            15.83 |      21.77 |      0.1  |       399 |
+| OVH SAS                        |            11.97 |      15.34 |      5.78 |       533 |
+| Online S.a.s.                  |             8.55 |      11.56 |      2.57 |       273 |
+| Joshua Peter McQuistan         |             4.5  |       0.39 |     16.68 |        54 |
+| netcup GmbH                    |             3.02 |       3.62 |      0.47 |       123 |
+| myLoc managed IT AG            |             2.49 |       3.06 |      1.86 |        44 |
+| Foundation for Applied Privacy |             2.4  |       0.29 |      8.81 |        18 |
+| FranTech Solutions             |             1.91 |       1.09 |      4.31 |        86 |
+| 1&amp;1 Internet SE            |             1.45 |       1.93 |      0.19 |        39 |
+| NForce Entertainment B.V.      |             1.35 |       0.74 |      3.42 |        24 |
 
 **[Show more](asnameshare)**
 
@@ -118,20 +116,12 @@ Relays are aggregated based on effective families. Effective families are relays
 
 | Tor Version   |   CW Fraction(%) |   Exit(%) |   Guard(%) |   #Relays |
 |:--------------|-----------------:|----------:|-----------:|----------:|
-| 0.3.5         |             56.7 |     73.31 |      50.53 |      3342 |
-| 0.3.4         |             19.5 |      6.47 |      25.9  |       943 |
-| 0.2.9         |              9.4 |      5.28 |       9.75 |      1079 |
-| 0.4.0         |              6.4 |     10.15 |       5.13 |       189 |
-| 0.3.2         |              3.5 |      1.75 |       4.5  |       258 |
-| 0.3.3         |              2.1 |      0.97 |       2.44 |       242 |
-| 0.4.1         |              0.6 |      1.01 |       0.54 |        22 |
-| 0.3.1         |              0.5 |      0.17 |       0.69 |        65 |
-| 0.2.5         |              0.4 |      0.27 |       0.23 |       137 |
-| 0.2.4         |              0.3 |      0.5  |       0.07 |       135 |
-| 0.2.6         |              0   |      0    |       0.01 |        22 |
-| 0.2.7         |              0   |      0    |       0.02 |        74 |
-| 0.2.8         |              0   |      0    |       0.05 |        22 |
-| 0.3.0         |              0   |      0    |       0.08 |        56 |
+| 0.4.2         |             42.4 |     50.78 |      39.48 |      2409 |
+| 0.4.1         |             23   |     31.84 |      20.67 |      1445 |
+| 0.3.5         |             19.2 |      7.72 |      23.23 |      1559 |
+| 0.4.0         |              9.8 |      7.4  |      10.7  |       398 |
+| 0.2.9         |              3.2 |      1.11 |       3.39 |       512 |
+| 0.4.3         |              2.1 |      1.12 |       2.51 |        55 |
 | 0.3.6         |              0   |      0    |       0    |         1 |
 
 A version-distribution-over-time graph (by relay count) can be found on the [Torproject Metrics page](https://metrics.torproject.org/versions.html)
@@ -144,7 +134,7 @@ The following table shows how many relays run a tor version that is no longer su
 
 |   CW Fraction(%) |   Guard(%) |   Exit(%) |   #Relays |
 |-----------------:|-----------:|----------:|----------:|
-|             7.29 |       8.13 |      3.69 |      1012 |
+|             3.23 |       3.39 |      1.11 |       513 |
 
 **[Show all relays running unsupported tor releases](eolrelays)**
 
@@ -152,11 +142,11 @@ The following table shows how many relays run a tor version that is no longer su
 
 | OS      |   CW Fraction(%) |   Exit(%) |   Guard(%) |   #Relays |
 |:--------|-----------------:|----------:|-----------:|----------:|
-| Linux   |             91.5 |      86   |       93   |      6036 |
-| BSD     |              8.2 |      13.8 |        6.6 |       410 |
-| Windows |              0.1 |       0   |        0   |        79 |
-| SunOS   |              0   |       0   |        0   |         4 |
-| Darwin  |              0   |       0   |        0.1 |        12 |
+| Linux   |             90.3 |      85   |       91.6 |      5787 |
+| BSD     |              9.4 |      14.8 |        8   |       456 |
+| Windows |              0.1 |       0   |        0.1 |        37 |
+| Darwin  |              0   |       0   |        0   |         6 |
+| SunOS   |              0   |       0   |        0.1 |         6 |
 
 A OS-distribution-over-time graph (by relay count) can be found on the [Torproject Metrics page](https://metrics.torproject.org/platforms.html)
 
@@ -166,13 +156,13 @@ A OS-distribution-over-time graph (by relay count) can be found on the [Torproje
 
 |   CW Fraction(%) |   Guard(%) |   Middle(%) |   Exit(%) |   #Relays |
 |-----------------:|-----------:|------------:|----------:|----------:|
-|            27.01 |      24.43 |       23.62 |     35.93 |      1048 |
+|            31.13 |      28.94 |       28.52 |     38.28 |      1202 |
 
 ### What exit probability allows IPv6 exiting?
 
 |   Exit(%) |   #Exit Relays |
 |----------:|---------------:|
-|     37.35 |            253 |
+|     39.33 |            302 |
 
 ## Bridge Stats
 
@@ -180,22 +170,23 @@ A OS-distribution-over-time graph (by relay count) can be found on the [Torproje
 
 | Supported Transports                       |   Bridges |
 |:-------------------------------------------|----------:|
-| obfs4                                      |       448 |
-| None                                       |       396 |
-| obfs3, obfs4                               |        59 |
-| fte, obfs3, obfs4, scramblesuit, websocket |        21 |
-| obfs2, obfs3, obfs4                        |         7 |
-| obfs3                                      |         6 |
-| fte, obfs3, obfs4, scramblesuit            |         5 |
+| obfs4                                      |       810 |
+| None                                       |       435 |
+| obfs3, obfs4                               |        60 |
+| fte, obfs3, obfs4, scramblesuit, websocket |        20 |
+| fte, obfs3, obfs4, scramblesuit            |         6 |
 | meek                                       |         5 |
-| obfs3, obfs4, scramblesuit                 |         5 |
-| obfs3, scramblesuit                        |         2 |
+| obfs2, obfs3, obfs4                        |         5 |
+| obfs3, obfs4, scramblesuit                 |         4 |
+| obfs3                                      |         3 |
 | fte, meek, obfs3, obfs4                    |         1 |
+| fte, obfs2, obfs3, obfs4, scramblesuit     |         1 |
 | fte, obfs3                                 |         1 |
 | fte, obfs3, scramblesuit                   |         1 |
+| fte, obfs4                                 |         1 |
 | meek, meek                                 |         1 |
-| obfs2, obfs3                               |         1 |
 | obfs2, obfs3, obfs4, scramblesuit          |         1 |
+| obfs3, scramblesuit                        |         1 |
 | websocket                                  |         1 |
 
 ## Data Source
